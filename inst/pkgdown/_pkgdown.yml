@@ -15,7 +15,7 @@ template:
     link-color: "#2d5bff"
     link-hover-color: "#1a45e0"
     border-color: "#e5e7eb"
-    code-bg: "#f6f8fa"
+    code-bg: "#1a1a2e"
     base_font:
       google: "Inter"
     heading_font:
@@ -23,7 +23,10 @@ template:
     code_font:
       google: "JetBrains Mono"
   includes:
-    in_header: <link rel="preconnect" href="https://fonts.googleapis.com">
+    in_header: |
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
 navbar:
   bg: "#ffffff"
