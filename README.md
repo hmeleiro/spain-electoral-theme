@@ -13,7 +13,7 @@ Provides the unified visual identity (colors, typography, component styles) for 
 
 ```r
 # install.packages("pak")
-pak::pak("hmeleiro/septheme")
+pak::pak("hmeleiro/spain_electoral_theme")
 ## Usage
 ```r
 # install.packages("pak")
@@ -40,7 +40,7 @@ Override any bslib variable in your package's `_pkgdown.yml`:
 
 ```yaml
 template:
-  package: septheme
+  package: spain_electoral_theme
   bootstrap: 5
   bslib:
     primary: "#0066cc"  # Override accent color
