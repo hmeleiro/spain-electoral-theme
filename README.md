@@ -1,4 +1,4 @@
-# spain_electoral_theme
+# spainelectoraltheme
 
 **pkgdown template for the [Spain Electoral Project](https://spainelectoralproject.com/).**
 
@@ -13,7 +13,7 @@ Provides the unified visual identity (colors, typography, component styles) for 
 
 ```r
 # install.packages("pak")
-pak::pak("hmeleiro/spain_electoral_theme")
+pak::pak("hmeleiro/spainelectoraltheme")
 ## Usage
 ```r
 # install.packages("pak")
@@ -22,7 +22,7 @@ In your package's `_pkgdown.yml`:
 
 ```yaml
 template:
-  package: spain_electoral_theme
+  package: spainelectoraltheme
   bootstrap: 5
 ```
 
@@ -40,7 +40,7 @@ Override any bslib variable in your package's `_pkgdown.yml`:
 
 ```yaml
 template:
-  package: spain_electoral_theme
+  package: spain_electspainelectoralthemeoral_theme
   bootstrap: 5
   bslib:
     primary: "#0066cc"  # Override accent color
