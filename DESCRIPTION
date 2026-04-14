@@ -1,6 +1,7 @@
 Package: spainelectoraltheme
 Type: Package
 Title: pkgdown Template for Spain Electoral Project
+URL: https://hmeleiro.github.io/spainelectoraltheme
 Version: 0.1.0
 Authors@R:
     person("Héctor", "Meleiro", email = "hmeleiro@gmail.com",

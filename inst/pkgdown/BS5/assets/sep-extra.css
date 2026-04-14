@@ -36,14 +36,30 @@ body {
   line-height: 1.6;
 }
 
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, table, th, td, input, textarea, select, button, label, .navbar, .sidebar, .card, .footer, .nav, .nav-link, .navbar-brand, .form-control, .form-label {
+  font-family: var(--font-sans) !important;
+  font-variation-settings: "wght" 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700 !important;
+  font-family: var(--font-sans) !important;
+}
+
+code, pre, kbd, samp {
+  font-family: var(--font-mono) !important;
+}
+}
+
 code, pre {
   font-family: var(--font-mono) !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
+  font-family: var(--font-sans) !important;
+  font-weight: 700 !important;
   line-height: 1.25;
-  color: var(--color-text);
+  color: var(--color-text) !important;
 }
 
 /* --- Navbar ------------------------------------------------ */
