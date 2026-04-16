@@ -1,0 +1,7 @@
+template:
+  bslib:
+    base_font: {google: {family: "Inter", wght: [400, 500, 600, 700, 800]}}
+    code_font: {google: {family: "JetBrains Mono", wght: [400, 500]}}
+    primary: "#2d5bff"
+    fg: "#1a1a2e"
+    bg: "#fafbfc"

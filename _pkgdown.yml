@@ -10,7 +10,7 @@ template:
     # after_body removed
 
 navbar:
-  bg: "#ffffff"
+  bg: light
   type: light
   structure:
     left: [intro, articles]
@@ -19,4 +19,7 @@ navbar:
 footer:
   structure:
     left: developed_by
-    right: built_with
+    right: [license, built_with]
+  components:
+    license: >
+      Licensed under <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT</a>.
