@@ -91,3 +91,22 @@ body {
   font-size: 1.125rem !important;
   letter-spacing: -0.5px;
 }
+
+// Spain Electoral Project footer branding
+.sep-footer-branding {
+  display: inline-block;
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
+  color: $secondary;
+
+  a {
+    color: $primary;
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-hover-color;
+      text-decoration: underline;
+    }
+  }
+}

@@ -5,3 +5,12 @@ template:
     primary: "#2d5bff"
     fg: "#1a1a2e"
     bg: "#fafbfc"
+
+footer:
+  structure:
+    left: [developed_by, sep_branding]
+    right: built_with
+  components:
+    sep_branding: >
+      <span class="sep-footer-branding">◆ Part of
+      <a href="https://spainelectoralproject.com">Spain Electoral Project</a></span>
